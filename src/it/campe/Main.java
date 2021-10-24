@@ -6,7 +6,7 @@ public class Main {
         String bigAmount = "500";
         String greatAmount = "100000";
 
-        int hugeAmount = 0; //напишите тут ваш код
+        int hugeAmount = Integer.parseInt(greatAmount) + Integer.parseInt(bigAmount);
 
         System.out.println(hugeAmount);
     }
